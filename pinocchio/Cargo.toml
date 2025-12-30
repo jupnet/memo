@@ -24,7 +24,7 @@ pinocchio-log = "0.5"
 
 [dev-dependencies]
 mollusk-svm = "0.8"
-solana-account = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-program-error = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
+solana-account = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-program-error = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }

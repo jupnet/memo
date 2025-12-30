@@ -8,8 +8,8 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
+solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
 
 [lib]
 crate-type = ["lib"]

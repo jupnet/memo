@@ -18,9 +18,9 @@ num-derive = "^0.4"
 num-traits = "^0.2"
 serde = { version = "^1.0", features = ["derive"], optional = true }
 serde_with = { version = "^3.16", optional = true }
-solana-account-info = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-cpi = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-program-entrypoint = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
+solana-account-info = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-cpi = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-program-entrypoint = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
 thiserror = "^2.0"

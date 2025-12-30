@@ -11,12 +11,12 @@ edition = "2021"
 no-entrypoint = []
 
 [dependencies]
-solana-account-info = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-msg = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-program-entrypoint = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-program-error = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }
-solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps" }   
+solana-account-info = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-instruction = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-msg = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-program-entrypoint = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-program-error = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }
+solana-pubkey = { git = "https://github.com/jupnet/jupnet-sdk", branch = "fix/sdk-deps-test" }   
 spl-memo-interface = { version = "2.0.0", path = "../interface" }
 
 [dev-dependencies]
